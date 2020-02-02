@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FfPrototype
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# ff-prototype-2020
+Fantasy Football but way better. You'll see.
+>>>>>>> c5943882e83abc7f55a1ecc60e54c5c285eb2c45
