@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Teams, Team } from "../data-models";
+import { City, NFLTeam } from "../data-models";
 
 @Component({
   selector: "app-root",
@@ -8,7 +8,7 @@ import { Teams, Team } from "../data-models";
 })
 export class AppComponent implements OnInit {
   title = "ff-prototype";
-  teams: Team[] = new Array();
+  teams: NFLTeam[] = new Array();
 
   /**
    *
@@ -16,11 +16,12 @@ export class AppComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    for (let team in Teams) {
-      this.teams.push(new Team(team, Teams[team]));
+    for (let city in City) {
+      //this.teams.push(new NFLTeam(city, City[city], "dave", null));
       //team is the static value
       //Teams[team] is the string value
-      console.log("adding: " + team);
+      console.log("adding: " + city);
+      console.log("type of city: " + typeof City[city]);
     }
     this.teams.sort();
   }
