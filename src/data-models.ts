@@ -66,8 +66,8 @@ export class NFLTeam {
   constructor(
     public city: City,
     public abbr: string,
-    public mascot: string,
-    public players: Player[]
+    public mascot?: string,
+    public players?: Player[]
   ) {}
 }
 
